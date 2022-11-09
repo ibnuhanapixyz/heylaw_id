@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  height: 75px;
+  margin: auto;
+}
+
+.header {
+  margin-left: auto;
+}
+
+.section {
+  padding-top: 150px;
+}
