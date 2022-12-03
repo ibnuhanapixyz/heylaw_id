@@ -3,37 +3,51 @@ import React from "react";
 export const Main = () => {
   return (
     <>
-      <div className="Main bg-blue-50 p-20">
-        <div className="text-center">
-          <h1 className="text-3xl py-10 font-bold">
-            Bertemu Para <span className="text-green">pendiri</span>
-          </h1>
-          <div className="flex items-center px-3 justify-center h-full w-full gap-x-10 ">
-            <div className="bg-origin-border p-4 px-5 bg-white shadow-md rounded-lg">
-              <img src="human01.png" className="rounded-lg"></img>
-              <h1 className="text-green flex bg-white ">Founder & CEO</h1>
-              <h2 className="text-black font-semibold flex">Awaludin Marwan</h2>
+      <div className="bg-putih pt-16 pb-16 md:pb-44 mt-16">
+        <div className="container mx-auto">
+          <div className="md:text-3xl text-2xl text-center font-bold">
+            Bertemu para <span className="text-green"> Pendiri</span>
+          </div>
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 mt-14">
+            <div className="shadow-md rounded-lg bg-white p-3 cursor-pointer">
+              <img
+                src="image6.svg"
+                className="w-full object-cover rounded"
+              ></img>
+              <div className="mt-4 text-green">Founder & CEO</div>
+              <div className="text-lg font-bold line-clamp-2 h-14">
+                Awaludin Marwan
+              </div>
             </div>
-            <div className="bg-origin-border p-4 px-3 bg-white shadow-md rounded-lg">
-              <img src="human01.png" className="rounded-lg"></img>
-              <h1 className="text-green flex">Co-Founder & COO</h1>
-              <h2 className="text-black font-semibold flex">
+            <div className="shadow-md rounded-lg bg-white p-3 cursor-pointer">
+              <img
+                src="image9.svg"
+                className="w-full object-cover rounded"
+              ></img>
+              <div className="mt-4 text-green">Co-Founder & COO</div>
+              <div className="text-lg font-bold line-clamp-2 h-14">
                 Az Zahra F. Sunandi
-              </h2>
+              </div>
             </div>
-            <div className="bg-origin-border p-4 px-3 bg-white shadow-md rounded-lg">
-              <img src="human01.png" className="rounded-lg"></img>
-              <h1 className="text-green flex  ">Co-Founder</h1>
-              <h2 className="text-black font-semibold flex">
+            <div className="shadow-md rounded-lg bg-white p-3 cursor-pointer">
+              <img
+                src="image8.svg"
+                className="w-full object-cover rounded"
+              ></img>
+              <div className="mt-4 text-green">Co-Founder</div>
+              <div className="text-lg font-bold line-clamp-2 h-14">
                 Wahyu Agung Pramudito
-              </h2>
+              </div>
             </div>
-            <div className="bg-origin-border p-4 px-3 bg-white shadow-md rounded-lg">
-              <img src="human01.png" className="rounded-lg"></img>
-              <h1 className="text-green flex  ">Co-Founder</h1>
-              <h2 className="text-black font-semibold flex">
+            <div className="shadow-md rounded-lg bg-white p-3 cursor-pointer">
+              <img
+                src="image7.svg"
+                className="w-full object-cover rounded"
+              ></img>
+              <div className="mt-4 text-green">Founder & CEO</div>
+              <div className="text-lg font-bold line-clamp-2 h-14">
                 Andi Tri Haryono
-              </h2>
+              </div>
             </div>
           </div>
         </div>

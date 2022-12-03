@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div class="flex justify-between p-16 bg-putih px-32">
+    <div class=" flex justify-between bg-putih  px-10 py-10 ">
       <div>
         <img src="logo.svg" className="w-15 h-12 pb-3"></img>
         <p className="text-2xl font-bold text-grey">

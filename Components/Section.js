@@ -2,10 +2,10 @@ import React from "react";
 
 export const Section = () => {
   return (
-    <div className="Section">
-      <div className="flex items-center px-3 h-full w-full gap-x-10 p-20 ">
-        <div className="pl-52 pt-36 ">
-          <img src="content.png"></img>
+    <div className="container mx-auto flex h-full item-center ">
+      <div className="flex items-center px-3  gap-x-10 p-20  ">
+        <div className="pl-52 pt-36   ">
+          <img src="content.png" className=" "></img>
         </div>
         <div className="pt-10">
           <p className="text-green font-bold text-3xl pb-5">

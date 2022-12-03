@@ -4,16 +4,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-}
-.nav {
-  height: 75px;
-  margin: auto;
-}
-
-.header {
-  margin-left: auto;
-}
-
-.section {
-  padding-top: 150px;
+  margin: 0;
+  padding: 0;
 }

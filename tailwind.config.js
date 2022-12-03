@@ -13,6 +13,9 @@ module.exports = {
         gray: "#C4C4C4",
         putih: "#F1F3F5",
       },
+      fontFamily: {
+       
+      },
     },
   },
   plugins: [],
